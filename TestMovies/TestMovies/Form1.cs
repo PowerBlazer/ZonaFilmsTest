@@ -87,7 +87,7 @@ namespace TestMovies
             int ItemCount = comboBox.SelectedIndex;
             string ItemName = comboBox.Items[ItemCount].ToString();
             if (comboBox.SelectedIndex == 0) { return; }
-            command = $"select * from MoviesTab WHERE "+NameColumn+" like N'%" + ItemName + "%'";
+            command = $"select * from MoviesTab WHERE "+NameColumn+" like '%" + ItemName + "%'";
             SearchMoviesTable(tableLayoutPanel1, command);
         }
 
@@ -162,7 +162,7 @@ namespace TestMovies
                 {
                     bunifuPages1.SelectedTab = MoviesPage;
                 }
-                string command = $"select * from MoviesTab WHERE Name like N'%" + SearchTextBox.Text + "%' REGEXP N'[а-яА-Я]'";
+                string command = $"select * from moviestab WHERE Name LiKE '%" + SearchTextBox.Text + "%'";
                 if (SearchTextBox.Text != "")
                 {
                     SearchMoviesTable(tableLayoutPanel1, command);

@@ -91,9 +91,9 @@
             // 
             this.YearLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.YearLabel.ForeColor = System.Drawing.Color.White;
-            this.YearLabel.Location = new System.Drawing.Point(191, 103);
+            this.YearLabel.Location = new System.Drawing.Point(275, 84);
             this.YearLabel.Name = "YearLabel";
-            this.YearLabel.Size = new System.Drawing.Size(790, 45);
+            this.YearLabel.Size = new System.Drawing.Size(706, 45);
             this.YearLabel.TabIndex = 10;
             this.YearLabel.Text = "2022";
             this.YearLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -102,9 +102,9 @@
             // 
             this.CountryLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.CountryLabel.ForeColor = System.Drawing.Color.White;
-            this.CountryLabel.Location = new System.Drawing.Point(189, 193);
+            this.CountryLabel.Location = new System.Drawing.Point(273, 174);
             this.CountryLabel.Name = "CountryLabel";
-            this.CountryLabel.Size = new System.Drawing.Size(792, 45);
+            this.CountryLabel.Size = new System.Drawing.Size(701, 45);
             this.CountryLabel.TabIndex = 11;
             this.CountryLabel.Text = "Россия";
             this.CountryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -113,7 +113,7 @@
             // 
             this.DirectorLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.DirectorLabel.ForeColor = System.Drawing.Color.White;
-            this.DirectorLabel.Location = new System.Drawing.Point(189, 238);
+            this.DirectorLabel.Location = new System.Drawing.Point(273, 219);
             this.DirectorLabel.Name = "DirectorLabel";
             this.DirectorLabel.Size = new System.Drawing.Size(792, 45);
             this.DirectorLabel.TabIndex = 12;
@@ -124,9 +124,9 @@
             // 
             this.screenplayLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.screenplayLabel.ForeColor = System.Drawing.Color.White;
-            this.screenplayLabel.Location = new System.Drawing.Point(189, 283);
+            this.screenplayLabel.Location = new System.Drawing.Point(273, 264);
             this.screenplayLabel.Name = "screenplayLabel";
-            this.screenplayLabel.Size = new System.Drawing.Size(792, 45);
+            this.screenplayLabel.Size = new System.Drawing.Size(704, 45);
             this.screenplayLabel.TabIndex = 13;
             this.screenplayLabel.Text = "Россия";
             this.screenplayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -135,9 +135,9 @@
             // 
             this.TheActorsLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.TheActorsLabel.ForeColor = System.Drawing.Color.White;
-            this.TheActorsLabel.Location = new System.Drawing.Point(189, 339);
+            this.TheActorsLabel.Location = new System.Drawing.Point(273, 309);
             this.TheActorsLabel.Name = "TheActorsLabel";
-            this.TheActorsLabel.Size = new System.Drawing.Size(790, 64);
+            this.TheActorsLabel.Size = new System.Drawing.Size(704, 94);
             this.TheActorsLabel.TabIndex = 14;
             this.TheActorsLabel.Text = "Россия";
             // 
@@ -255,9 +255,9 @@
             // 
             this.GenresLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.GenresLabel.ForeColor = System.Drawing.Color.White;
-            this.GenresLabel.Location = new System.Drawing.Point(189, 148);
+            this.GenresLabel.Location = new System.Drawing.Point(273, 129);
             this.GenresLabel.Name = "GenresLabel";
-            this.GenresLabel.Size = new System.Drawing.Size(792, 45);
+            this.GenresLabel.Size = new System.Drawing.Size(704, 45);
             this.GenresLabel.TabIndex = 19;
             this.GenresLabel.Text = "Россия";
             this.GenresLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

@@ -24,20 +24,16 @@ namespace TestMovies
             //PC
             //sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\GitHubProjects\DataBase\Database1.mdf;Integrated Security=True;Connect Timeout=30");
             //laptop
-            try
-            {
+            
+            
                 sqlConnection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectDB"].ConnectionString);
                 sqlConnection.Open();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Больше одного пользователя не потяну");
-            }
+            
         }
         public void ImportInfoMovie(int id)
         {
             string ImageByte="";
-            MySqlCommand sqlCommand = new MySqlCommand($"SELECT * FROM MoviesTab WHERE Id={id}", sqlConnection);
+            MySqlCommand sqlCommand = new MySqlCommand($"SELECT * FROM MoviesTab WHERE id={id}", sqlConnection);
             MySqlDataReader reader = sqlCommand.ExecuteReader();
             while (reader.Read())
             {
